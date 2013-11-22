@@ -1,0 +1,23 @@
+CC = i586-mingw32msvc-g++
+MINGW=/usr/i586-mingw32msvc
+
+all: clibusbwrapper.o cterminal.o cfl_streamoutput.o USBTerminal.cxx USBTerminal.exe
+
+cfl_streamoutput.o: cfl_streamoutput.h cfl_streamoutput.cxx
+	$(CC) -c cfl_streamoutput.cxx -O2 -Wall -Wextra `fltk-config --cxxflags`
+
+cterminal.o: cterminal.h cterminal.cxx
+	$(CC) -c cterminal.cxx  -O2 -Wall -Wextra `fltk-config --cxxflags`
+
+clibusbwrapper.o: clibusbwrapper.h clibusbwrapper.cpp
+	$(CC) -c clibusbwrapper.cpp -O2 -Wall -Wextra
+
+USBTerminal.cxx: USBTerminal.f
+	fluid -c USBTerminal.f
+
+USBTerminal.exe: USBTerminal.cxx cterminal.o clibusbwrapper.o cfl_streamoutput.o
+	$(CC)  USBTerminal.cxx -I$(MINGW)/include -O2 -DWIN32 cterminal.o clibusbwrapper.o cfl_streamoutput.o -o USBTerminal.exe -L$(MINGW)/lib -mwindows -lfltk_images -lfltk_png -lfltk_z -lfltk_jpeg -lfltk -lole32 -luuid -lcomctl32 -lwsock32 -lusb
+
+clean:
+	-rm -f *.o *.~ USBTerminal.cxx USBTerminal.h
+
