@@ -1,0 +1,98 @@
+Partlist
+
+Exported from motherboard_Rev1_0.brd at 22.11.13 09:53
+
+EAGLE Version 5.12.0 Copyright (c) 1988-2011 CadSoft
+
+Part     Value          Package             Library           Position (mil)        Orientation
+
+C1       22pF           C025-024X044        rcl               (2175 2050)           R0
+C2       22pF           C025-024X044        rcl               (2375 2050)           R0
+C3       100nF          C050-024X044        rcl               (1825 1525)           R0
+C4       100nF          C050-024X044        rcl               (2475 325)            R180
+C5       100nF          C050-024X044        rcl               (1975 2375)           R0
+C6       100nF          C050-024X044        rcl               (3375 2075)           R180
+C7       100nF          C050-024X044        rcl               (3375 1400)           R270
+C8       100nF          C050-024X044        rcl               (3050 1400)           R270
+C9       100nF          C050-024X044        rcl               (1800 1250)           R180
+C10      100nF          C050-024X044        rcl               (175 1175)            R180
+C11      100nF          C050-024X044        rcl               (1900 500)            R270
+C12      100nF          C050-024X044        rcl               (3487.5 700)          R90
+C13      100nF          C050-024X044        rcl               (2550 750)            R180
+C14      100nF          C050-024X044        rcl               (1125 2400)           R180
+C15      100nF          C050-024X044        rcl               (2850 712.5)          R180
+C16      100nF          C050-024X044        rcl               (737.5 862.5)         R0
+C17      100nF          C050-024X044        rcl               (2300 600)            R0
+C18      100nF          C050-024X044        rcl               (1700 2375)           R0
+C19      100nF          C050-024X044        rcl               (962.5 612.5)         R90
+C20      1µF            C050-050X075        rcl               (3475 2750)           R270
+C21      10µF           E2,5-5              rcl               (3200 1925)           R90
+C22      10µF LowESR    CT6032              rcl               (962.5 325)           MR90
+C23      22µF           E2-5                rcl               (2050 650)            R90
+C24      100µF          E2,5-6              rcl               (3437.5 175)          R270
+C25      1µF            C050-050X075        rcl               (187.5 2662.5)        R0
+C26      1µF            C050-050X075        rcl               (187.5 1950)          R180
+D1       3,6V           SOD80C              diode             (775 1837.5)          MR90
+D2       3,6V           SOD80C              diode             (675 1675)            MR90
+D3       5,1V           DO35Z10             diode             (3500 1725)           R180
+D4       5,1V           DO35Z10             diode             (3350 1625)           R180
+DS1                     HDM20216H_OHNE      FHO-Projekt       (2275 1950)           R0
+IC2      MAX517         DIL08               FHO-Projekt       (3325 2375)           R180
+IC3      LM334          JP2Y                FHO-Projekt       (737.5 737.5)         R180
+IC4      TSOP17..       TSOP17..            01-Optoelektronik (2575 175)            R0
+IC5      LM2940CT5      78XXS               v-reg             (3175 525)            R180
+IC6      ATmega32       DIL40               FHO-Projekt       (1775 1950)           R0
+ISP      AVR-ISP-6      AVR-ISP-6           eigene_neu        (1325 1000)           R0
+JP1                     JP2Y                jumper            (500 1950)            R180
+JP2                     JP2Y                jumper            (500 2675)            R180
+JP3                     JP1Y                jumper            (2875 1350)           R180
+JP4                     JP1Y                jumper            (3200 1350)           R180
+JP5                     JP2Y                jumper            (1125 200)            R270
+JP6                     JP1Y                jumper            (3275 2800)           R180
+JP7                     JP1Y                jumper            (2575 2812.5)         R90
+JP8                     JP1Y                jumper            (2825 525)            R180
+JP9                     JP1Y                jumper            (3437.5 412.5)        R0
+JP10                    JP1Y                jumper            (2600 525)            R0
+K1                      AKL073-02           01-Schraubklemmen (3100 225)            R0
+K2                      AKL073-02           01-Schraubklemmen (725 225)             R0
+L1       10µH           L3230M              rcl               (1825 2075)           MR90
+LED1     gelb           LED3MM              led               (1525 175)            R90
+LED2     gelb           LED3MM              led               (1337.5 175)          R90
+Q1       16MHz          HC49U-V             crystal           (2225 1900)           R0
+R1       1M             0207/7              rcl               (1275 1950)           R180
+R2       10K            0207/7              rcl               (1850 1375)           R0
+R3       4,7K           0207/7              rcl               (3025 2200)           R270
+R4       4,7K           0207/7              rcl               (2900 2250)           R270
+R5       10k            0207/7              rcl               (1025 2875)           R270
+R6       10k            P6M-S               FHO-Projekt       (1500 2975)           R180
+R7       68R            0207/7              rcl               (1075 1500)           R180
+R8       68R            0207/7              rcl               (1025 1950)           R90
+R9       1,5k           0207/7              rcl               (487.5 1175)          R180
+R10      270R           0207/7              rcl               (787.5 1087.5)        R0
+R11      12k            0207/7              rcl               (725 987.5)           R180
+R12      820R           0207/7              rcl               (1800 275)            R0
+R13      820R           0207/7              rcl               (1800 175)            R0
+R14      10k            CA6H                pot               (2125 2875)           R180
+R15      10R            0207/7              rcl               (2475 2950)           R0
+R16      12k            0207/7              rcl               (625 2812.5)          R0
+R17      500k           CA6H                pot               (625 3025)            R180
+R18      68R            0207/7              rcl               (3700 2075)           R270
+R19      68R            0207/7              rcl               (3600 2075)           R270
+R20                     R1206               rcl               (412.5 2950)          MR90
+R21                     R1206               rcl               (212.5 1625)          MR270
+R22                     R1206               rcl               (162.5 2525)          MR90
+R23                     R1206               rcl               (162.5 1825)          MR180
+S1                      B3F-10XX            switch-omron      (2962.5 1025)         R270
+S2                      B3F-10XX            switch-omron      (3287.5 1025)         R270
+S3                      B3F-10XX            switch-omron      (1800 1000)           R90
+SV1                     ML10                01-Steckverbinder (1425 550)            R0
+SV2                     ML10                01-Steckverbinder (3725 775)            R270
+SV3                     ML10                01-Steckverbinder (2375 1000)           R0
+SV4      Servo1/2       MA03-2              FHO-Projekt       (2150 225)            R0
+SV5      Servo3/4       MA03-2              FHO-Projekt       (2150 425)            R0
+T1       BSP295         SOT223              FHO-Projekt       (675 475)             MR270
+T2       BPW42          FOTOTRAN3MM         01-Optoelektronik (879.528 2928.15)     R270
+X1                      USB_B_STECKER       FHO-Projekt       (400 1550)            R270
+X2                      PS2                 FHO-Projekt       (0 750)               R270
+X3                      STEREO_MIT_SCHALTER FHO-Projekt       (0 2300)              R90
+X4                      STEREO_MIT_SCHALTER FHO-Projekt       (2925 3150)           R0
