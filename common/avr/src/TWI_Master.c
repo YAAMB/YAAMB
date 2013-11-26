@@ -126,7 +126,7 @@ that is whenever a TWI event has occurred. This function should not be called di
 application.
 ****************************************************************************/
 
-SIGNAL(SIG_2WIRE_SERIAL)
+ISR(TWI_vect)
 {
     static unsigned char TWI_bufPtr;
     switch (TWSR)
