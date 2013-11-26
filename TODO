@@ -1,0 +1,12 @@
+
+Doppelte Dateien aufräumen und mergen
+
+PC_Tools/USBTerminal/clibusbwrapper.cpp und /common/PC/src/clibusbwrapper.cpp
+PC_Tools/USBTerminal/clibusbwrapper.h und /common/PC/include/clibusbwrapper.h
+
+doppelte Dateien mit fslint-gui finden und löschen
+
+oszi_gui compiliert nicht mehr
+
+
+

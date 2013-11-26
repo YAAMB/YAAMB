@@ -1,0 +1,3 @@
+Hier liegen gemeinsame Sourcefiles wie libs und Treiber
+Im Ordner avr Header,Sourcecode (C und Assembler) für die AVRs,
+im Ordner i686 Source für die Verwendung auf i686 PCs, compilierbar mit gcc und MinGW
